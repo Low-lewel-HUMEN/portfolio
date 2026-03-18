@@ -14,9 +14,9 @@
 * Open `cmd` or `PowerShell`
 * Write command:
 ```
-git clone https://github.com/Low-lewel-HUMEN/Assembler-and-C-portfolio master
+git clone https://github.com/Low-lewel-HUMEN/portfolio main
 ```
-* Open `build.bat` from folder `only-c \ study \ work-with-files \ copy-txt`
+* Open `build.bat` from folder `c-works \ study \ work-with-files \ copy-txt-files`
 
 # How start using this app?
 * Need create or rename your `*.txt` in `file1.txt` near with `main.exe`, and start this program. After to how `file1.txt` copying - you can see `file2.txt` with text from `file1.txt`
