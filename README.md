@@ -1,18 +1,13 @@
-# Who I?
-I'm c and assembler programmer (Junior+)
-  
 # About me
-* [Study works](#study-works)
-* [Contacts](#contacts)
+I'm c and assembler programmer (Junior+)
+* [My study works](#my-study-works)
+* [My portfolio works]()
+* [Contacts]()
 
-# Study works
-* [Study works with c](#study-c) [(.)](./c-works/study/)
-* Study works with asm [(.)](./assembler-works/study/)
-* Study works with asm and c [(.)](./assembler-and-c-works/study)
-
-# Study work c
-### work with files [(.)](./c-works/study/work-with-files/)
-* [Work #18.03.2026](./c-works/study/work-with-files/copy-txt-files/) || [README.md](./c-works/study/work-with-files/copy-txt-files/README.md)
+# My study works
+* [C language works](./c-works/study/README.md) [(.)](./c-works/study/)
+* [Asm language works]() [(.)](./assembler-works/study/)
+* [Asm and C languages works]() [(.)](./assembler-and-c-works/study)
 
 # Contacts
 **Telegram**: @TheVIPLegend  
