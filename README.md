@@ -6,8 +6,8 @@ I'm c and assembler programmer (Junior+)
 
 # My study works
 * [C language works](./c-works/study/README.md) [(.)](./c-works/study/)
-* [Asm language works]() [(.)](./assembler-works/study/)
-* [Asm and C languages works]() [(.)](./assembler-and-c-works/study)
+* [Asm language works]() [(.)](./assembler-works/study/README.md)
+* [Asm and C languages works]() [(.)](./assembler-and-c-works/study/README.md)
 
 # Contacts
 **Telegram**: @TheVIPLegend  
