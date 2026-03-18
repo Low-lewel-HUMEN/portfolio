@@ -10,7 +10,7 @@ I'm c and assembler programmer (Junior+)
 * Study works with asm [(.)](./assembler-works/study/)
 * Study works with asm and c [(.)](./assembler-and-c-works/study)
 
-# Study c
+# Study work c
 ### work with files [(.)](./c-works/study/work-with-files/)
 * [Work #18.03.2026](./c-works/study/work-with-files/copy-txt-files/) || [README.md](./c-works/study/work-with-files/copy-txt-files/README.md)
 
