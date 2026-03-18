@@ -2,22 +2,24 @@
 I'm c and assembler programmer (Junior+)
   
 # About me
-* [My portfolios](#portfolios)
+* [Study works](#study-works)
 * [Contacts](#contacts)
-  
-# Portfolios
-* [Only c portfolio](#c-language-portfolio) [(.)](./c-works/)
-* [Only assembler portfolio](#assembler-portfolio) [(.)](./assembler-works/)
-* [C and assembler portfolio] [(.)](./assembler-and-c-works/)
 
-# Works
-## C-language portfolio
+# Study works
+* [Study works with c](#study-works-with-c) [(.)](./c-works/study/)
+* [Study works with asm](#study-works-with-asm) [(.)](./assembler-works/study/)
+* [Study works with asm and c](#study-works-with-asm-and-c) [(.)](./assembler-and-c-works/study)
+
+## Study works with c
 * Work with files [(.)](./c-works/study/work-with-files/)
 
-## Assembler-language portfolio
+### Study c & work with files
+* [Work #18.03.2026](./c-works/study/work-with-files/copy-txt-files/) || [README.md](./c-works/study/work-with-files/copy-txt-files/README.md)
+
+## Study works with asm
 * null
 
-## C and assembler languages portfolio
+## Study works with asm and c
 * null
 
 # Contacts

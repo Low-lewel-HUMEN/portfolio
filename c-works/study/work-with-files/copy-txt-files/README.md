@@ -22,4 +22,3 @@ git clone https://github.com/Low-lewel-HUMEN/portfolio main
 * Need create or rename your `*.txt` in `file1.txt` near with `main.exe`, and start this program. After to how `file1.txt` copying - you can see `file2.txt` with text from `file1.txt`
 
 **Warning**: only windows x64.  
-**My Telegram**: @TheVIPLegend.
