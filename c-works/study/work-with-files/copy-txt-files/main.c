@@ -18,8 +18,8 @@ int main() {
     file2 = fopen("file2.txt", "w");
 
     if (file1 == NULL || file2 == NULL) {
-        if (file1 == NULL) fclose(file1);
-        if (file2 == NULL) fclose(file2);
+        if (file1 != NULL) fclose(file1);
+        if (file2 != NULL) fclose(file2);
         free(buffer);
         
         ExitProcess(1);

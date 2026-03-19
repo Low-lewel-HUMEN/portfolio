@@ -1,8 +1,8 @@
 # About me
 I'm c and assembler programmer (Junior+)
 * [My study works](#my-study-works)
-* [My portfolio works]()
-* [Contacts]()
+* My portfolio works
+* [Contacts](#contacts)
 
 # My study works
 * [C language works](./c-works/study/README.md) [(.)](./c-works/study/)
