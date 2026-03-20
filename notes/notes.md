@@ -8,14 +8,15 @@
 | prefix                         | type                           | example                        |
 |--------------------------------|--------------------------------|--------------------------------|
 |                                |                                |                                |
-| b                              | UNSIGNED BYTE               +8 | bMask                          |
-| w                              | UNSIGNED WORD              +16 | wMask                          |
+| ub                             | UNSIGNED BYTE               +8 | ubMask                         |
+| uw                             | UNSIGNED WORD              +16 | uwMask                         |
 | ul                             | UNSIGNED LONG              +32 | ulMask                         |
 | ull                            | UNSIGNED LONG LONG         +64 | ullMask                        |
-| sb                             | SIGNED BYTE                 -8 | sbMask                         |
-| sw                             | SIGNED WORD                -16 | swMask                         |
+| b                              | SIGNED BYTE                 -8 | bMask                          |
+| w                              | SIGNED WORD                -16 | wMask                          |
 | l                              | SIGNED LONG                -32 | lMask                          |
 | ll                             | SIGNED LONG LONG           -64 | llMask                         |
+| st                             | SIZE_T                    +MAX | stMask
 
 
 **OTHER TYPE**:

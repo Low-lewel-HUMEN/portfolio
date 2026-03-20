@@ -1,32 +1,31 @@
 #include <stdio.h>
 #include <windows.h>
 
-int logger(const void *_Str, size_t _ElementSize, size_t _StrSize, const char *_FileName) {
+int logger(const char *lpStr, size_t stElementSize, size_t stStrSize, const char *lpFileName) {
 
-    FILE *_File = fopen(_FileName, "a");
+    FILE *lpFile = fopen(lpFileName, "a");
 
-    if (_File == NULL) return 1;
-//  if (_File != NULL) continue;
+    if (lpFile == NULL) return 1;
+//  if (lpFile != NULL) continue;
 
-    fwrite(_Str, _ElementSize, _StrSize, _File);
-    fclose(_File);
-
-    return 0;
-}
-
-int loggerFast(const void *_Str, size_t _ElementSize, size_t _StrSize, FILE *_File) {
-
-    if (_File == NULL) return 1;
-//  if (_File != NULL) continue;
-
-    fwrite(_Str, _ElementSize, _StrSize, _File);
+    fwrite(lpStr, stElementSize, stStrSize, lpFile);
+    fclose(lpFile);
 
     return 0;
 }
 
-int loggerVFast(const void *_Str, size_t _ElementSize, size_t _StrSize, FILE *_File) {
+int loggerFast(const char *lpStr, size_t stElementSize, size_t stStrSize, FILE *lpFile) {
 
-    fwrite(_Str, _ElementSize, _StrSize, _File);
+    if (lpFile == NULL) return 1;
+//  if (lpFile != NULL) continue;
+
+    fwrite(lpStr, stElementSize, stStrSize, lpFile);
+    return 0;
+}
+
+int loggerVFast(const char *lpStr, size_t stElementSize, size_t stStrSize, FILE *lpFile) {
+
+    fwrite(lpStr, stElementSize, stStrSize, lpFile);
     return 0;
 }
 
@@ -39,23 +38,23 @@ int main() {
 
     // Fast logger
 
-    FILE *file = fopen("logger.log", "a");
+    FILE *hFile = fopen("logger.log", "a");
 
-    loggerFast("log3", 1, 4, file);
-    loggerFast("log4", 1, 4, file);
+    loggerFast("log3", 1, 4, hFile);
+    loggerFast("log4", 1, 4, hFile);
 
-    fclose(file);
-    file = NULL;
+    fclose(hFile);
+    hFile = NULL;
 
     // Very fast logger
 
-    file = fopen("logger.log", "a");
+    hFile = fopen("logger.log", "a");
 
-    loggerVFast("log5", 1, 4, file);
-    loggerVFast("log6", 1, 4, file);
+    loggerVFast("log5", 1, 4, hFile);
+    loggerVFast("log6", 1, 4, hFile);
 
-    fclose(file);
-    file = NULL;
+    fclose(hFile);
+    hFile = NULL;
 
     ExitProcess(0);
 }

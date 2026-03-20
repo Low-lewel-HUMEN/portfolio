@@ -6,32 +6,32 @@
 
 int main() {
 
-    void *buffer = malloc(BUFFER_SIZE);
+    void *lpBuffer = malloc(BUFFER_SIZE);
 
-    int bytes_readen;
-    int bytes_written;
+    size_t stBytesReaden;
+    size_t stBytesWritten;
 
-    FILE *file1;
-    FILE *file2;
+    FILE *hFile1;
+    FILE *hFile2;
 
-    file1 = fopen("file1.txt", "r");
-    file2 = fopen("file2.txt", "w");
+    hFile1 = fopen("file1.txt", "r");
+    hFile2 = fopen("file2.txt", "w");
 
-    if (file1 == NULL || file2 == NULL) {
-        if (file1 != NULL) fclose(file1);
-        if (file2 != NULL) fclose(file2);
-        free(buffer);
+    if (hFile1 == NULL || hFile2 == NULL) {
+        if (hFile1 != NULL) fclose(hFile1);
+        if (hFile2 != NULL) fclose(hFile2);
+        free(lpBuffer);
         
         ExitProcess(1);
     }
 
-    while ((bytes_readen = fread(buffer, 1, BUFFER_SIZE, file1)) > 0) {
-        bytes_written = fwrite(buffer, 1, bytes_readen, file2);
+    while ((stBytesReaden = fread(lpBuffer, 1, BUFFER_SIZE, hFile1)) > 0) {
+        stBytesWritten = fwrite(lpBuffer, 1, stBytesReaden, hFile2);
     }
 
-    fclose(file1);
-    fclose(file2);
-    free(buffer);
+    fclose(hFile1);
+    fclose(hFile2);
+    free(lpBuffer);
 
     ExitProcess(0);
 }
