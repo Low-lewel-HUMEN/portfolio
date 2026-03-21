@@ -12,9 +12,9 @@
 # Technical details
 
 This app valuable because in him 3 function:
-* logger(`const void` *_Str, `size_t` _ElementSize, `size_t` _StrSize, `const char` *_FileName);
-* loggerFast(`const void` *_Str, `size_t` _ElementSize, `size_t` _StrSize, `FILE` *_File);
-* loggerVFast(`const void` *_Str, `size_t` _ElementSize, `size_t` _StrSize, `FILE` *_File);
+* logger(`const char` *lpStr, `size_t` stElementSize, `size_t` stStrSize, `const char` *lpFileName);
+* loggerFast(`const char` *lpStr, `size_t` stElementSize, `size_t` stStrSize, `FILE` *lpFile);
+* loggerVFast(`const char` *lpStr, `size_t` stElementSize, `size_t` stStrSize, `FILE` *lpFile);
 
 I want create `DLL-lib` that will contain this functions, and will help create program on other programming languages
 
@@ -36,6 +36,6 @@ git clone https://github.com/Low-lewel-HUMEN/portfolio main
 * Open `build.bat` from folder `"main \ c-works \ study \ work-with-files \ work-19.03.2026"`
 
 # How start using this app?
-* No ways. This test functions)
+* No ways.. This test functions :)
 
 **Warning**: only windows x64.

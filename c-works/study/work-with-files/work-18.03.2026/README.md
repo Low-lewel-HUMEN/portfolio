@@ -15,8 +15,8 @@
 This app do..
 * allocated memory from heap (type `void*`, size 4096 bytes);
 * opened `file1.txt` and created or change `file2.txt` (if `file1.txt` not found - program do `ExitProcess(1)` through WinAPI);
-* readed 4096 bytes (size buffer) from file1.txt in `void *buffer`;
-* written 4096 bytes (size buffer) from `void *buffer` in file2.txt;
+* readed 4096 bytes (size buffer) from file1.txt in `void *lpBuffer`;
+* written 4096 bytes (size buffer) from `void *lpBuffer` in file2.txt;
 * read and write alternated through while to end `file1.txt`;
 * exit process with `0` through WinAPI (if not errors).
 
