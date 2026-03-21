@@ -13,8 +13,9 @@
 # Technical details
 
 This app do..
-* call `WriteConsoleW` WinAPI from `kernel32` and write "hell" in console
-* call `Sleep` WinAPI from `kernel32` with arg "5 seconds"
+1. call `GetStdHandle` (WinAPI) with arg `-11` (`-11` - handle for write in console) | C translate: `HANDLE hWriteConsole GetStdHandle(-11)`
+2. call `WriteConsoleW` (WinAPI) from `kernel32` and write "hell" in console | C translate: `WriteConsoleW(hWriteConsole, *lpBuffer (dw), sizeof(dwBuffer), NULL, NULL)`
+3. call `Sleep` (WinAPI) from `kernel32` with arg "5 seconds" | C translate: `Sleep(5000) // pause with 5 seconds`
 
 # To uses, need download..
 * Need download `nasm 3.01+`
