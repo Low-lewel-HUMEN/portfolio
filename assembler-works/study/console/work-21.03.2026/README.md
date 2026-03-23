@@ -13,18 +13,20 @@
 # Technical details
 
 This app do..
-1. call `GetStdHandle` (WinAPI) with arg `-11` (`-11` - handle for write in console) | C translate: `HANDLE hWriteConsole GetStdHandle(-11)`
+1. call `GetStdHandle` (WinAPI) with arg `-11` (`-11` - handle for write in console) | C translate: `HANDLE hWriteConsole = GetStdHandle(-11)`
 2. call `WriteConsoleW` (WinAPI) from `kernel32` and write "hell" in console | C translate: `WriteConsoleW(hWriteConsole, *lpBuffer (dw), sizeof(dwBuffer), NULL, NULL)`
-3. call `Sleep` (WinAPI) from `kernel32` with arg "5 seconds" | C translate: `Sleep(5000) // pause with 5 seconds`
+3. call `Sleep` (WinAPI) from `kernel32` with arg "5 seconds" | C translate: `Sleep(5000) // pause 5 seconds`
+4. call `ExitProcess` (WinAPI) from `kernel32` with arg `"int 0"` | C translate: `ExitProcess(0) // return 0; `
 
 # To uses, need download..
-* Need download `nasm 3.01+`
-* Need download `gcc (C23)`
 * Need download `git`
+* Need download `gcc (C23)`
+* Need download `nasm 3.01+`
 
 # To uses, must be..
 * `GCC` must be added to PATH
 * `GIT` must be added to PATH
+* `NASM 3.01` must be added to PATH
 
 # How build this app?
 * Open `cmd` or `PowerShell`
