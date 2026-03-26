@@ -8,6 +8,8 @@ I'm c and assembler programmer (Junior+)
 * [C language works](./c-works/study/README.md) [(.)](./c-works/study/)
 * [Asm language works](./assembler-works/study/README.md) [(.)](./assembler-works/study/)
 * [Asm and C languages works](./assembler-and-c-works/study/README.md) [(.)](./assembler-and-c-works/study/)
+* [Dinamic analys work](./other/dinamic-analys/README.md)
+* Static analys work
 
 # Contacts
 **Telegram**: @TheVIPLegend  
