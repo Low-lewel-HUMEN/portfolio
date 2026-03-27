@@ -15,7 +15,7 @@ Features debugger-main.c | debugger-main.exe:
 
 # Technical details
 info:
-* main.c was created with target to create simple code for created `logger.log`,
+* main.c was created with target to create simple code for create `logger.log`,
 * but I also decided to create debugger-main.c from main.c app through debugger (x64dbg)
 * debugger-main.c = (type `DEBUGGER_ANALYS`)main.exe from main.c
 

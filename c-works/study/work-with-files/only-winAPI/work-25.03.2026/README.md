@@ -7,9 +7,9 @@
 * [How start using this app?](#how-start-using-this-app)
 
 # Features
-* Create or open hidden (!) file with name `logger.log`
-* if a file `logger.log` exists - app open this file
-* if the file `logger.log` not exists - app create the file `logger.log` and open this file 
+* Created or opened hidden (!) file with name `logger.log`
+* if a file `logger.log` exists - app opened this file
+* if the file `logger.log` not exists - app created the file `logger.log` and open this file 
 
 # Technical details
 

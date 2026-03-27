@@ -1,6 +1,4 @@
-# Study works c
-### work with files [(.)](./c-works/study/work-with-files/)
-  
+# Study works (c language) | works with files
 [winAPI and CLibs](./work-with-files/):
 * [work #18.03.2026](./work-with-files/work-18.03.2026/) || [README.md](./work-with-files/work-18.03.2026/README.md)
 * [work #19.03.2026](./work-with-files/work-19.03.2026/) || [README.md](./work-with-files/work-19.03.2026/README.md)
@@ -11,5 +9,5 @@
   
 [Only CLibs](./work-with-files/only-CLibs/):
 * not found
-  
-[back to main README.md](/README.md)
+
+[back to README.md](/c-works/study/README.md)

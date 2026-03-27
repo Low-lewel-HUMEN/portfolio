@@ -7,7 +7,7 @@
 * [How start using this app?](#how-start-using-this-app)
 
 # Features
-* Create logs (if `logger.log` not found) or add in end `logger.log` (if `logger.log` found)
+* Created logs (if `logger.log` not found) or added in end `logger.log` (if `logger.log` found)
 
 # Technical details
 
