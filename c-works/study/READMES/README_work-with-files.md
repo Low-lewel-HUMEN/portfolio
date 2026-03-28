@@ -1,13 +1,13 @@
 # Study works (c language) | works with files
 **winAPI and CLibs** [(.)](c-works/study/work-with-files/):
-* [work #18.03.2026](c-works/study/work-with-files/work-18.03.2026/) || [README.md](c-works/study/work-with-files/work-18.03.2026/README.md)
-* [work #19.03.2026](c-works/study/work-with-files/work-19.03.2026/) || [README.md](c-works/study/work-with-files/work-19.03.2026/README.md)
+* [work #18.03.2026](/c-works/study/work-with-files/work-18.03.2026/) || [README.md](/c-works/study/work-with-files/work-18.03.2026/README.md)
+* [work #19.03.2026](/c-works/study/work-with-files/work-19.03.2026/) || [README.md](/c-works/study/work-with-files/work-19.03.2026/README.md)
   
-**Only winAPI** [(.)](c-works/study/work-with-files/only-winAPI/):
-* [work-#25.03.2026](c-works/study/work-with-files/only-winAPI/work-25.03.2026/) || [README.md](c-works/study/work-with-files/only-winAPI/work-25.03.2026/README.md)
-* [work-#26.03.2026](c-works/study/work-with-files/only-winAPI/work-26.03.2026/) || [README.md](c-works/study/work-with-files/only-winAPI/work-26.03.2026/README.md)
+**Only winAPI** [(.)](/c-works/study/work-with-files/only-winAPI/):
+* [work-#25.03.2026](/c-works/study/work-with-files/only-winAPI/work-25.03.2026/) || [README.md](/c-works/study/work-with-files/only-winAPI/work-25.03.2026/README.md)
+* [work-#26.03.2026](/c-works/study/work-with-files/only-winAPI/work-26.03.2026/) || [README.md](/c-works/study/work-with-files/only-winAPI/work-26.03.2026/README.md)
   
-**Only CLibs** [(.)](c-works/study/work-with-files/only-CLibs/):
+**Only CLibs** [(.)](/c-works/study/work-with-files/only-CLibs/):
 * not found
   
 [back to README.md](/c-works/study/README.md)
