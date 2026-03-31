@@ -6,7 +6,7 @@
 void LogMessageEx(const wchar_t* lpLog, struct stLogMessageEx* lpStruct) {
 
     // data
-    const wchar_t* lpFileName    = lpStruct->lpHeapFileName;
+    const wchar_t* lpFileName    = lpStruct->lpFileName;
     const DWORD dwFileAttributes = lpStruct->FileAttributes;
     const DWORD dwLen = lstrlenW(lpLog); 
 

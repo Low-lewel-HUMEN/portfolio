@@ -6,7 +6,5 @@ typedef struct stLogMessageEx {
     wchar_t* lpFileName;
     DWORD FileAttributes;
     HANDLE hHeap;
-    DWORD nSizeFileName;
-    wchar_t* lpHeapFileName;
 
 } stLogMessageEx;

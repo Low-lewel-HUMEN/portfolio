@@ -7,9 +7,8 @@
 struct stLogMessageEx* GetLogMessageEx(wchar_t* lpFileName, DWORD FileAttributes) {
 
     HANDLE hHeap = GetProcessHeap();
-    DWORD nCountCopy;
 
-    // allocated from malloc for struct
+    // allocated from malloc
     struct stLogMessageEx* lpStructure = 
     (struct stLogMessageEx*)             // type - struct (for arifmetica compiler)
     HeapAlloc(
@@ -23,29 +22,10 @@ struct stLogMessageEx* GetLogMessageEx(wchar_t* lpFileName, DWORD FileAttributes
         return NULL;
     }
 
-    // allocated from malloc for lpFileName
-    wchar_t* lpHeapFileName =
-    HeapAlloc(
-        hHeap,
-        HEAP_ZERO_MEMORY,
-        ((lstrlenW(lpFileName) + 1) * 2)
-    );
-
-    // copy lpFileName in lpHeapFileName
-    for (int count = 0; count < (lstrlenW(lpFileName) + 1); count++) {
-        lpHeapFileName[count] = lpFileName[count];
-        nCountCopy = count;
-    }
-
-    nCountCopy += 1;
-    lpHeapFileName[nCountCopy] = '\0';
-
     // Add data in struct from Heap
     lpStructure->lpFileName = lpFileName;
     lpStructure->FileAttributes = FileAttributes;
     lpStructure->hHeap = hHeap;
-    lpStructure->lpHeapFileName = lpHeapFileName;
-    lpStructure->nSizeFileName = lstrlenW(lpHeapFileName);
 
     return lpStructure;
 }

@@ -7,6 +7,8 @@
 * [work-#25.03.2026](/c-works/study/work-with-files/only-winAPI/work-25.03.2026/) || [README.md](/c-works/study/work-with-files/only-winAPI/work-25.03.2026/README.md)
 * [work-#26.03.2026](/c-works/study/work-with-files/only-winAPI/work-26.03.2026/) || [README.md](/c-works/study/work-with-files/only-winAPI/work-26.03.2026/README.md)
 * [work-#28.03.2026](/c-works/study/work-with-files/only-winAPI/work-28.03.2026/) || [README.md](/c-works/study/work-with-files/only-winAPI/work-28.03.2026/README.md)
+* [work-#29.03.2026](/c-works/study/work-with-files/only-winAPI/work-29.03.2026/) || README.md
+* [work-#31.03.2026](/c-works/study/work-with-files/only-winAPI/work-31.03.2026/) || README.md
   
 **Only CLibs** [(.)](/c-works/study/work-with-files/only-CLibs/):
 * not found
