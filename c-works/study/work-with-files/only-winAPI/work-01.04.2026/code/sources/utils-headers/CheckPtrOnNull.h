@@ -1,0 +1,1 @@
+void* CheckPtrOnNull(void* lpPtr);
