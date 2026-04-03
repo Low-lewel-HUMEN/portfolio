@@ -1,0 +1,1 @@
+void CopyFileNameInHeap(wchar_t* lpFileName, wchar_t* lpHeapForFileName);
